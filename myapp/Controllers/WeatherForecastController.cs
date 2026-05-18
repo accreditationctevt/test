@@ -22,5 +22,10 @@ namespace myapp.Controllers
             })
             .ToArray();
         }
+        [HttpGet(Name = "hello")]
+        public IActionResult Hello()
+        {
+            return Ok("Hello, World!");
+        }
     }
 }
