@@ -12,10 +12,7 @@ env:
 
 jobs:
   build:
-    runs-on: self-hosted
-    outputs:
-      artifact-name: ${{ steps.upload.outputs.artifact-name }}
-      artifact-id: ${{ steps.upload.outputs.artifact-id }}
+    runs-on: windows-latest
 
     steps:
       - name: Checkout source code
