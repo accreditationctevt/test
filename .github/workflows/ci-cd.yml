@@ -7,7 +7,7 @@ on:
 
 env:
   DOTNET_VERSION: "10.0.x"
-  PROJECT_PATH: "./myapp/myapp/myapp.csproj"
+  PROJECT_PATH: "./myapp/myapp.csproj"
   PUBLISH_DIR: "./publish"
 
 jobs:
